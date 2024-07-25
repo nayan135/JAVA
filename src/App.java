@@ -9,6 +9,5 @@ public class App{
         int age = sc.nextInt();
         System.out.println("hello "+name);
         System.out.println("your age is "+age);
-        
     }
 }
