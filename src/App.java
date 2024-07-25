@@ -1,6 +1,6 @@
 import java.util.*;
 public class App{
-    public static void main(String na[]){
+    public static void main(String[] na){
         Scanner sc = new Scanner(System.in);
         System.out.println("what's your name?");
         String name = sc.nextLine();
@@ -16,5 +16,6 @@ public class App{
         String name2 = name.substring(0,2);
         System.out.println("new name = " + name1);
         System.out.println("new name = " + name2);
+        sc.close();
     }
 }
