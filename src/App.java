@@ -1,4 +1,3 @@
-
 import java.util.*;
 public class App{
     public static void main(String[] na){
@@ -18,18 +17,13 @@ public class App{
         System.out.println("new name = " + name1);
         System.out.println("new name = " + name2);
 
-
-
         int[] marks = new int[4];
         for(int i=0; i<=3; i++){
             System.out.println("enter your marks");
             marks[i] = sc.nextInt();
-
         }
         for(int i=0; i<=3; i++){
             System.out.println("Your marks is "+marks[i]);
-
-
         }
         sc.close();
     }
